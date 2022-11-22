@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+img{
+    float:left;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+h1 {
+  font-family: "Montserrat";
+  color: white;
+}
+.header {
+    width:100%;
+    height: 100%;
+    max-height: 1024px;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+.video-wrapp  {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+.video-box {
+   position: absolute;
+   top:0;
+   left: 50%;
+   height: 100%;
+}
+.video {
+    display: inline-block;
+    height: 100%;
+    transform: translateX(-50%);
+    min-height: 768px;
+}
+nav {
+  margin: 0 auto ;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.main li {
+  display: inline-block;
+  position: relative;
+}
+.main li:hover a{
+    border-bottom: 3px solid transparent;
+    border-color: #f04d35;
+}
+.sub li:hover{
+    padding:0;
+    background: #d13018;
+}
+.sub li:hover a{
+    border: none;
+}
+.sub li, .sub li a{  
+    display:block;
+}
+a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+.sub {
+  position: absolute;
+  margin-right: auto;
+  list-style: none;
+  visibility: hidden;
+  background: #f04d35;
+}
+ul li:hover .sub {
+    visibility: visible;
+}
+@font-face{
+    font-family: "Montserrat";
+    src:url(ofont.ru_Montserrat.ttf) format("truetype");
+    font-style: normal;
+    font-weight:normal;
+}
