@@ -9,31 +9,37 @@ header{
     width: 100%;
     height: 100%;
 }
+.container-fluid{
+  margin:0;
+  padding:0;
+  width: auto;
+}
 .container1{
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 0; 
+}
+.common{
+  height: max-content;
 }
 .overlay {
-    background: rgba(0,0,0,0.6);
-    background: url(project/img/druplicon.svg) no-repeat left top;
+    background: url(project/img/druplicon.svg);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
     position: absolute;
-    top:0;
-    left:0;
     width: 100%;
-    height: 100%;
     z-index: 10;/*без я индекс не получается навести на оверлай и не видно подчеркиваний и саб меню*/
 }
 p{
   font-family: "Montserrat";
   color: rgba(255,255,255,.8);
-  font-size: 18px;
+  font-size: 14px;
 }
 h1 {
   font-family: "Montserrat";
   color: white;
   font-weight: bold;
-  font-size: 52px;
-  line-height: 60px;
+  font-size: 24px;
+  line-height: 1.2;
 }
 .arrow{
   display:inline-block;
@@ -46,47 +52,26 @@ h1 {
 .header {
     width:100%;
     height: 100%;
-    max-height: 1024px;
     background: #000;
     overflow: hidden;
     position: relative;
 }
-/*.video-wrapp  {
-    top:0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-   width: 100%;
-   height: 100%;    
-}
 .video {
-  width: 100%;
-  position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
   height: auto;
-  z-index: 5;
   filter: blur(3px);
   transform: scale(1.04);
   display: inline-block;
   vertical-align: baseline;
-}*/
+}
 .video-wrapp  {
   top:0;
   left: 0;
   bottom: 0;
   right: 0;
   overflow: hidden;
- width: 100%;
- height: 100%;
-  
-}
-.video {
-  width: 100%;
 }
 nav {
   margin: 0 auto ;
@@ -157,6 +142,12 @@ ul li:hover .sub {
   border-radius: 5px;
   transition: background 300ms;
 }
+#first{
+  width:100%;
+}
+#second{
+  width:100%;
+}
 #first a:hover {
   background: #f04d35;
   color:#fff;
@@ -164,6 +155,9 @@ ul li:hover .sub {
 a:hover {
     color:#fff;
   }
+.d-flex{
+  margin:0;
+}
 .support-achievement-wrapper, .support-achievement-wrapper1 {
   border-left: 3px solid #f14d34;
   padding-left: 15px;
@@ -171,9 +165,9 @@ a:hover {
   padding-bottom: 10px;
   min-height: 80px;
   font-family: "Montserrat";
+  margin-bottom:30px;
 }
 .support-achievement-wrapper1{
-  margin-bottom:30px;
 }
 .support-achievement-description {
   font-weight: 500;
@@ -219,12 +213,11 @@ h2 {
 .second-block{
   background: white;
 }
+
 .col-xs-6{
+  width:50%;
   position: relative;
-  min-height: 1px;    
-  width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
+  min-height: 1px;   
 }
 .support-achievement-wrapper1 img{
 vertical-align: middle;
@@ -336,8 +329,8 @@ margin-top: -27px;
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(project/img/icon-bg.svg) no-repeat right bottom;
-  background-size: contain;
+  background: url(project/img/icon-bg.svg) no-repeat;
+  background-size: cover;
   z-index: 10;
   font-size: 16px; 
   line-height: 1.42857143; 
@@ -366,7 +359,9 @@ margin-top: -27px;
   position: relative; 
   z-index: 15; 
  } 
-  
+.col-sm-8{
+  width: auto;
+}
   
  .row{ 
   font-size: 16px; 
@@ -443,17 +438,31 @@ margin-top: -27px;
   max-width: 100%; 
   height: auto; 
  } 
-  
  @media (max-width: 767px) { 
   .row-flex{ 
   margin-bottom: 10px; 
   } 
-  .support-main:before, .block-main:before {
-    background-size: contain;
-    background-position: center top;
-  }
+  nav {
+    visibility: hidden;
+    display: none;
+    }
  } 
  @media (min-width: 768px) { 
+  #second .col-xs-6{
+  width:33.333%;
+}#first{
+  width:50%;
+}
+#second{
+  width:50%;
+}
+  h1{
+    font-size: 52px;
+    line-height: 60px;
+  }
+  p{
+    font-size: 18px;
+  }
   .expertise-row{ 
   margin-bottom: 0; 
   } 
@@ -478,6 +487,9 @@ margin-top: -27px;
   }
 }
 @media (min-width: 1198px){
+.video{
+  width: inherit;
+}
   .col-md-6 {
       padding: 280px 0 40px;
   }
