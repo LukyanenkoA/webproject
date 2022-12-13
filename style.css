@@ -517,7 +517,44 @@ margin-top: -27px;
   opacity: .8;
 }
 
-
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #e5e5e5;
+}
+.social-links {
+  margin-bottom: 15px;
+}
+.social-links-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-links img {
+  border: 0;
+  vertical-align: middle;
+  aspect-ratio: auto 625 / 603;
+}
+.social-links-item a {
+  border: 2px solid #f14d34;
+  background: #f14d34;
+  border-radius: 5px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  transition: background 300ms;
+  
+  appearance: none;
+}
+.social-links-wrapper {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+  list-style: none;
+}
 .field--type-text-with-summary:before {
   content: "";
   display: block;
