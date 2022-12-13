@@ -167,8 +167,7 @@ a:hover {
   font-family: "Montserrat";
   margin-bottom:30px;
 }
-.support-achievement-wrapper1{
-}
+
 .support-achievement-description {
   font-weight: 500;
   font-size: 12px;
@@ -342,8 +341,8 @@ margin-top: -27px;
  } 
 
  .expertise h2{
-  margin-top: 22px;
-  margin-bottom: 63px;
+  margin-top: 8px;
+  margin-bottom: 40px;
  }
   
  .conteiner{ 
@@ -422,7 +421,10 @@ margin-top: -27px;
   max-width: 735px; 
   width: 85%; 
  } 
-  
+ .second-block .d-flex{
+  margin-left: 100px;
+  padding-top: 100px;
+ }
  .expertise-img img{ 
   width: 100%; 
   height: auto; 
@@ -438,6 +440,197 @@ margin-top: -27px;
   max-width: 100%; 
   height: auto; 
  } 
+ .flex-md-row-reverse{    
+   padding-top: 230px;
+ }
+
+
+
+
+
+ footer {
+  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(/themes/custom/bootstrap_dc/css/../images/D-footer.svg) no-repeat bottom right,#040613;
+  padding: 117px 0 54px;
+  color: #fff;
+  font-family: Montserrat;
+}
+.block-form-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: initial;
+  line-height: 1.215;
+}
+.block-form-description {
+  line-height: 1.55;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(256,256,256,.7);
+}
+.block-form-contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.block-form-contacts ul li a {
+  font-size: 14px;
+}
+.block-form-contacts .block-form-phone a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.block-form-contacts .block-form-email a {
+  text-decoration: underline;
+}
+.block-form-contacts ul li>a {
+  color: #fff;
+  display: inline-block;
+  padding-left: 40px;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.1;
+}
+.block-form-phone>a:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(project/img/phone.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 3px;
+    bottom: 4px;
+    opacity: .8;
+}
+.block-form-email a:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 18px;
+  background: url(project/img/mail.svg) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: .8;
+}
+
+
+.field--type-text-with-summary:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(256,256,256,.3);
+}
+.field--name-body {
+  padding-top: 56px;
+}
+.field--name-field-block-with-form-value form input, .field--name-field-block-with-form-value form textarea {
+  background: transparent;
+  border: 1px solid rgba(256,256,256,.3);
+  border-radius: 5px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 26px 24px;
+  color: #fff;
+}
+.field--name-field-block-with-form-value .form-type-checkbox label a {
+  color: #f14d34;
+}
+.field--name-field-block-with-form-value .form-type-checkbox label {
+  padding-left: 38px;
+  font-size: 12px;
+  color: #fff;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+}
+.form-required:after {
+  background-size: 7px 7px;
+  width: 7px;
+  vertical-align: text-top;
+  margin-left: 2px;
+}
+.form-required:after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI0VFMDAwMCIgIGQ9Ik0wLDcuNTYybDEuMTE0LTMuNDM4YzIuNTY1LDAuOTA2LDQuNDMsMS42ODgsNS41OSwyLjM1QzYuMzk4LDMuNTUzLDYuMjM3LDEuNTQ0LDYuMjIsMC40NDdoMy41MTEgYy0wLjA1LDEuNTk3LTAuMjM0LDMuNi0wLjU1OCw2LjAwM2MxLjY2NC0wLjgzOCwzLjU2Ni0xLjYxMyw1LjcxNC0yLjMyNUwxNiw3LjU2MmMtMi4wNSwwLjY3OC00LjA2LDEuMTMxLTYuMDI4LDEuMzU2IGMwLjk4NCwwLjg1NiwyLjM3MiwyLjM4MSw0LjE2Niw0LjU3NWwtMi45MDYsMi4wNTljLTAuOTM1LTEuMjc0LTIuMDQxLTMuMDA5LTMuMzE2LTUuMjA2Yy0xLjE5NCwyLjI3NS0yLjI0NCw0LjAxMy0zLjE0Nyw1LjIwNiBsLTIuODU2LTIuMDU5YzEuODcyLTIuMzA3LDMuMjExLTMuODMyLDQuMDE3LTQuNTc1QzMuODQ5LDguNTE2LDEuODcyLDguMDYyLDAsNy41NjIiLz48L3N2Zz4K);
+  background-repeat: no-repeat; 
+  content: "";
+  display: inline-block;
+  line-height: 1;
+  height: 7px;
+}
+textarea.form-control {
+  height: auto;
+}
+textarea {
+  overflow: auto;
+}
+.resize-vertical {
+  min-height: 2em;
+  resize: vertical;
+}
+.radio label, .checkbox label {
+  min-height: 22px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.field--name-field-block-with-form-value .btn, .field--name-field-block-with-form-value .btn:focus, .field--name-field-block-with-form-value .btn:active {
+  background: #f14d34;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  outline: 0;
+  box-shadow: none;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 20px 14px;
+  line-height: 1;
+  transition: background 300ms;
+}
+.field--name-field-block-with-form-value .form-type-checkbox .custom-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid rgba(256,256,256,.5);
+  border-radius: 5px;
+}
+.field--name-field-block-with-form-value .form-type-checkbox input~.custom-checkbox:after {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  background: url(project/img/checked-icon.svg) no-repeat center;
+  background-size: contain;
+  transition: opacity 200ms,transform 400ms;
+  transform: rotateZ(-30deg);
+  opacity: 0;
+}
+footer p {
+  margin: 0 0 11px;
+  margin-bottom: 0;
+}
+
  @media (max-width: 767px) { 
   .row-flex{ 
   margin-bottom: 10px; 
@@ -450,12 +643,16 @@ margin-top: -27px;
  @media (min-width: 768px) { 
   #second .col-xs-6{
   width:33.333%;
-}#first{
-  width:50%;
-}
-#second{
-  width:50%;
-}
+  }#first{
+    width:50%;
+  }
+  .block-form-title{
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  #second{
+    width:50%;
+  }
   h1{
     font-size: 52px;
     line-height: 60px;
@@ -472,17 +669,18 @@ margin-top: -27px;
   .col-sm-3 {
     width: 25%;
   }
-  .col-sm-6 {
+  .expertise .col-sm-6 {
     float: left;
+    width:50%;
   }
-  .col-md-6 {
+   .expertise .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
     padding-top: 230px;
   }
 }
 @media (max-width: 991px){
-  .col-md-6 {
+  .expertise .col-md-6 {
       padding-top: 230px;
   }
 }
