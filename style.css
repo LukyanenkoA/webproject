@@ -142,13 +142,18 @@ ul li:hover .sub {
   border-radius: 5px;
   transition: background 300ms;
 }
+.common .row{
+  width:100%;
+}
 #first{
+  margin:0;
   width:100%;
 }
 #second{
+  margin:0;
   width:100%;
 }
-#first a:hover {
+#first a:active {
   background: #f04d35;
   color:#fff;
 }
@@ -448,6 +453,9 @@ margin-top: -27px;
 
 
 
+ 
+
+
  footer {
   background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(/themes/custom/bootstrap_dc/css/../images/D-footer.svg) no-repeat bottom right,#040613;
   padding: 117px 0 54px;
@@ -469,12 +477,16 @@ margin-top: -27px;
   color: rgba(256,256,256,.7);
 }
 .block-form-contacts{
-  margin-top: 170px;
+  margin-top: 15px;
 }
 .block-form-contacts ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+label, .checkbox label {
+  font-weight: normal;
+  cursor: pointer;
 }
 .block-form-contacts ul li a {
   font-size: 14px;
@@ -504,7 +516,7 @@ margin-top: -27px;
     background-size: contain;
     position: absolute;
     left: 3px;
-    bottom: 4px;
+    bottom: 13px;
     opacity: .8;
 }
 .block-form-email a:before {
@@ -516,7 +528,7 @@ margin-top: -27px;
   background-size: contain;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 13px;
   opacity: .8;
 }
 
@@ -567,6 +579,13 @@ margin-top: -27px;
   height: 1px;
   background: rgba(256,256,256,.3);
 }
+.field--name-field-block-with-form-value form .form-type-textfield label, .field--name-field-block-with-form-value form .form-type-textarea label, .field--name-field-block-with-form-value form .form-type-email label {
+  display: none;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 .field--name-body {
   padding-top: 56px;
 }
@@ -584,7 +603,6 @@ margin-top: -27px;
   color: #f14d34;
 }
 .field--name-field-block-with-form-value .form-type-checkbox label {
-  padding-left: 38px;
   font-size: 12px;
   color: #fff;
 }
@@ -592,6 +610,8 @@ margin-top: -27px;
   display: block;
   width: 100%;
   height: 36px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .form-required:after {
   background-size: 7px 7px;
@@ -624,10 +644,6 @@ textarea {
   font-weight: normal;
   cursor: pointer;
 }
-label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
 .field--name-field-block-with-form-value .btn, .field--name-field-block-with-form-value .btn:focus, .field--name-field-block-with-form-value .btn:active {
   background: #f14d34;
   border: 2px solid #f14d34;
@@ -655,7 +671,7 @@ label {
   border: 2px solid rgba(256,256,256,.5);
   border-radius: 5px;
 }
-.field--name-field-block-with-form-value .form-type-checkbox input~.custom-checkbox:after {
+.field--name-field-block-with-form-value .form-type-checkbox input.custom-checkbox:after {
   content: "";
   display: block;
   width: 21px;
@@ -666,11 +682,26 @@ label {
   transform: rotateZ(-30deg);
   opacity: 0;
 }
+button, input, optgroup, select, textarea {
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
 footer p {
+  text-align: justify;
   margin: 0 0 11px;
   margin-bottom: 0;
+  
+  display: inline;
 }
-
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: #f14d34;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 136, 0, 0.25);
+}
  @media (max-width: 767px) { 
   .row-flex{ 
   margin-bottom: 10px; 
@@ -680,7 +711,14 @@ footer p {
     display: none;
     }
  } 
- @media (min-width: 768px) { 
+ @media (min-width: 768px) {
+  .block-form-contacts{
+    margin-top: 170px;
+  } 
+  #first a:hover {
+    background: #f04d35;
+    color:#fff;
+  }
   #second .col-xs-6{
   width:33.333%;
   }#first{
