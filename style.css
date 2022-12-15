@@ -1,509 +1,782 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="viewport" content="width=device-width initial-scale=1,shrink-to-fit=no">
-    <title>Main project Lukyanenko and Kopanetskaya</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container-fluid container1">
-    <div class="d-flex flex-column">
-      <header>
-        <div class="common">
-          <div class="overlay col-sm-12 col-md-8 mx-auto">
-            <img id="imgHeader" src="project/img/drupal-coder.svg" alt="" width="156" height="31">
-            <nav>
-              <ul class="main">
-                <li>
-                  <a href="">ПОДДЕРЖКА  DRUPAL</a>
-                </li>
-                <li class="dropdown">
-                  <a href="">АДМИНИСТРИРОВАНИЕ
-                    <b class="arrow"></b>
-                  </a>
-                  <div>
-                    <ul class="sub">
-                      <li>
-                        <a href="">МИГРАЦИЯ</a>
-                      </li>
-                      <li>
-                        <a href="">БЭКАПЫ</a>
-                      </li>
-                      <li>
-                        <a href="">АУДИТ БЕЗОПАСНОСТИ</a>
-                      </li>
-                      <li>
-                        <a href="">ОПТИМИЗАЦИЯ СКОРОСТИ</a>
-                      </li>
-                      <li>
-                        <a href="">ПЕРЕЕЗД НА HTTPS</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <a href="">ПРОДВИЖЕНИЕ</a>
-                </li>
-                <li>
-                  <a href="">РЕКЛАМА</a>
-                </li>
-                <li class="dropdown">
-                  <a href="">О НАС
-                    <b class="arrow"></b>
-                  </a>
-                  <div>
-                    <ul class="sub">
-                      <li>
-                        <a href="">КОМАНДА</a>
-                      </li>
-                      <li>
-                        <a href="">DRUPALGIVE</a>
-                      </li>
-                      <li>
-                        <a href="">КУРСЫ DRUPAL</a>
-                      </li>
-                      <li>
-                        <a href="">ВАКАНСИИ</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <a href="">ПРОЕКТЫ</a>
-                </li>
-                <li>
-                  <a href="">КОНТАКТЫ</a> 
-                </li>
-              </ul>
-            </nav> 
-            <br>
-            <div class="container-fluid">
-              <div class="row">
-                <div id="first" class="row main_row-flex col-sm-12">
-                  <h1>Поддержка <br> сайтов на Drupal</h1>
-                  <p>Сопровождение и поддержка сайтов <br> на CMS Drupal любых версий и запущенности</p>
-                  <a href="" class="block-main-btn flowing-scroll">Тарифы</a>
-                </div>
-                <div id="second" class="col-md-6 col-sm-12">
-                  <div class="container-fluid">
-                    <div class="row"> 
-                      <div class="support-achievement-wrapper1 col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title2">#1<img src="project/img/cup.png" alt="" width="59" height="58"></div>
-                        <div class="support-achievement-description">
-                          Drupal-разработчик<br> в России по версии <br> Рейтинга Рунета
-                        </div>
-                      </div>
-                      <div class="support-achievement-wrapper1 col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title">3+</div>
-                        <div class="support-achievement-description">
-                          средний опыт <br> специалистов более <br> 3 лет
-                        </div>
-                      </div>
-                      <div class="support-achievement-wrapper1 col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title">14</div>
-                        <div class="support-achievement-description">
-                          лет опыта в сфере <br> Drupal
-                        </div>
-                      </div>
-                      <div class="support-achievement-wrapper col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title">50+</div>
-                        <div class="support-achievement-description">
-                          модулей и тем <br> в формате DrupalGive
-                        </div>
-                      </div>
-                      <div class="support-achievement-wrapper col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title">90 000+</div>
-                        <div class="support-achievement-description">
-                          часов поддержки <br> сайтов на Drupal
-                        </div>
-                      </div>
-                      <div class="support-achievement-wrapper col-md-4 col-sm-6 col-xs-6 support-achievement ">
-                        <div class="support-achievement-title">300+</div>
-                        <div class="support-achievement-description">
-                          Проектов <br> на поддержке
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="video-wrapp col-sm-12 col-md-12 mx-auto">
-            <video class="fillWidth video"  preload="auto" playsinline autoplay="autoplay" muted loop>
-              <source src="project/img/video.mp4" type="video/mp4">
-              <source src="project/img/video.mp4" type="video/webm">
-            </video>
-          </div>
-        </div>
-      </header>
-    </div>
-  </div>
-      <div class="second-block">
-        <div class="container-fluid">
-          <div class="d-flex flex-column">
-            <div class="second-block-title">
-                <h2>13 лет совершенствуем <br> компетенции в Друпал <br> поддержке!</h2>
-                <p>Разрабатываем и оптимизируем модули, расширяем <br> функциональность сайтов, обновляем дизайн</p>
-            </div>
-            <div class="row row-flex competencies-row">
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-1.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Добавление <br> информации на сайт,<br> создание новых <br> разделов
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-2.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Разработка <br> и оптимизация <br> модулей сайта
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-3.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Интеграция с CRM, <br> 1C, платежными <br> системами, любыми <br> веб-сервисами
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-4.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Любые доработки <br> функционала <br> и дизайна
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-5.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Аудит и мониторинг <br> безопасности Drupal <br> сайтов
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-6.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Миграция, импорт <br> контента и апгрейд <br> Drupal
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-7.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Оптимизация <br> и ускорение <br> Drupal-сайтов
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="competency">
-                  <div class="competency-wrapper">
-                    <div class="competency-header">
-                      <div class="competency-icon"><img src="project/img/competency-8.svg" width="81" height="81" class="img-responsive"></div>
-                    </div>
-                    <div class="competency-body">
-                      Веб-маркетинг, <br> консультации <br> и работы по SEO
-                    </div>
-                  </div>                
-                </div> 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="advantages with-expertise">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h2 class="block-title">Поддержка <br> от Drupal-coder</h2>
-              </div>
-            </div>   
-            <div class="row row-flex advantages-row">
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">01.</div>
-                      <div class="advantage-title">Постановка задачи по Email</div>
-                    </div>
-                    <div class="advantage-body">
-                      Удобная и привычная модель постановки задач, при которой задачи фиксируются и никогда не теряются.
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support1.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">02.</div>
-                      <div class="advantage-title">Система Helpdesk – отчетность, прозрачность</div>
-                    </div>
-                    <div class="advantage-body">
-                      Возможность посмотреть все заявки в работе и отработанные часы в личном кабинете через браузер.
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support2.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>     
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">03.</div>
-                      <div class="advantage-title">Расширенная техническая поддержка</div>
-                    </div>
-                    <div class="advantage-body">
-                     Возможность организации расширенной техподдержки с 6:00 до 22:00 без выходных.
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support3.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">04.</div>
-                      <div class="advantage-title">Персональный менеджер проекта</div>
-                    </div>
-                    <div class="advantage-body">
-                      Ваш менеджер проекта  всегда в курсе текущего состояния проекта и в любой момент готов ответить на любые вопросы.  
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support4.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">05.</div>
-                      <div class="advantage-title">Удобные способы оплаты</div>
-                    </div>
-                    <div class="advantage-body">
-                      Безналичный расчет по договору или электронные деньги: WebMoney, Яндекс.Деньги, Paypal. 
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support5.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">06.</div>
-                      <div class="advantage-title">Работаем с SLA и NDA</div>
-                    </div>
-                    <div class="advantage-body">
-                      Работа в рамках соглашений о конфиденциальности и об уровне качества работ.
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support6.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">07.</div>
-                      <div class="advantage-title">Штатные специалисты</div>
-                    </div>
-                    <div class="advantage-body">
-                      Надежные штатные специалисты, никаких фрилансеров.
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support7.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-              <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
-                <div class="advantage">
-                  <div class="advantage-wrapper">
-                    <div class="advantage-header">
-                      <div class="advantage-num">08.</div>
-                      <div class="advantage-title">Удобные каналы связи</div>
-                    </div>
-                    <div class="advantage-body">
-                      Консультации по телефону, скайпу, в месенджерах. 
-                    </div>
-                    <div class="advantage-icon"><img src="project/img/support8.svg" class="img-responsive" loading="lazy"></div>
-                  </div>                
-                </div> 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="third-block">
-        <div class = "expertise flex-md-row"> 
-          <div class="container-fluid container1">
-              <div class="d-flex flex-md-row-reverse flex-column">
-              <div class = "container"> 
-                  <div class = "row"> 
-                      <div class = "col-md-10 col-xs-12 col-md-offset-6"> 
-                          <div class = "row"> 
-                              <div class = "col-md-12"> 
-                                  <h2 class = "block-title">Экспертиза в Drupal, <br> опыт 17 лет!</h2> 
-                              </div> 
-                          </div> 
-                          <div class = "row row-flex expertise-row"> 
-                              <div class = "col-sm-6 col-xs-12 expertise-col"> 
-                                  <div class = "expertise-item"> 
-                                      <div class = "expertise-item-body"> 
-                                          Только системный подход – контроль версий, резервирование и тестирование! 
-                                      </div> 
-                                  </div> 
-                              </div> 
-                              <div class = "col-sm-6 col-xs-12 expertise-col"> 
-                                  <div class = "expertise-item"> 
-                                      <div class = "expertise-item-body"> 
-                                          Только Drupal сайты, не берем на поддержку сайты на других CMS! 
-                                      </div> 
-                                  </div> 
-                              </div> 
-                              <div class = "col-sm-6 col-xs-12 expertise-col"> 
-                                  <div class = "expertise-item"> 
-                                      <div class = "expertise-item-body"> 
-                                          Участвуем в разработке ядра Drupal и модулей на Drupal.org, разрабатываем 
-                                          <a href = "/drupalgive">свои модули Drupal</a> 
-                                      </div> 
-                                  </div> 
-                              </div> 
-                              <div class = "col-sm-6 col-xs-12 expertise-col"> 
-                                  <div class = "expertise-item"> 
-                                      <div class = "expertise-item-body"> 
-                                          Поддерживаем сайты на Drupal 5, 6, 7 и 8 
-                                      </div> 
-                                  </div> 
-                              </div> 
-                          </div> 
-                      </div> 
-                  </div> 
-              </div> 
-              <div class = "expertise-img"> 
-              <picture> 
-                  <source srcset = "project/img/laptop.png" type = "image/webp"> 
-                  <img class = "img-responsive" src = "project/img/druplicon.png" width = "625" height = "603" loading = "lazy"> 
-              </picture> 
-              </div> 
-              </div> 
-          </div>
-      </div>
-  </div>
-  </div>
-  </div>
-    <footer class="footer" role="contentinfo">
-      <div class=" container">  
-        <div class="region region-footer">
-          <div class="row">
-            <div class="col-md-6 col-xs-12 col-sm-6">
-              <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="block-form-wrapper">
-                <div class="block-form-title">Оставить заявку на <br>поддержку сайта</div>
-                <div class="block-form-description"><p>Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! просто оставьте заявку и наш менеджер с вами свяжется!</p></div>
-                  <div class="block-form-contacts">
-                    <ul>
-                      <li class="block-form-phone"><a href="tel:88002222673">8 800 222-26-73</a></li>
-                      <li class="block-form-email"><a href="mailto:info@drupal-coder.ru">info@drupal-coder.ru</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-6 col-xs-12 col-sm-6">
-            <div class="field field--name-field-block-with-form-value field--type-entity-reference field--label-hidden field--item">
-              <form class="contact-message-order-support-form contact-message-form contact-form antibot" data-user-info-from-browser="" data-drupal-selector="contact-message-order-support-form" data-action="/" action="/" method="post" id="contact-message-order-support-form" accept-charset="UTF-8" data-once="form-updated user-info-from-browser" data-drupal-form-fields="edit-field-vashe-imya-0-value,edit-field-telefon-0-value,edit-field-e-mail-0-value,edit-field-vash-0-value,edit-fz152-agreement,edit-submit">
-                <noscript>
-                <div class="antibot-no-js antibot-message antibot-message-warning">Вы должны включить JavaScript чтобы использовать эту форму.</div>
-                </noscript>
-                <div class="field--type-string field--name-field-vashe-imya field--widget-string-textfield form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-vashe-imya-wrapper" id="edit-field-vashe-imya-wrapper">      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-vashe-imya-0-value js-form-item-field-vashe-imya-0-value form-group">
-                <label for="edit-field-vashe-imya-0-value" class="control-label">Ваше имя</label>
-                <input class="js-text-full text-full form-text form-control" data-drupal-selector="edit-field-vashe-imya-0-value" type="text" id="edit-field-vashe-imya-0-value" name="field_vashe_imya[0][value]" value="" size="60" maxlength="255" placeholder="Ваше имя">
-                </div>
-                </div>
-                <div class="field--type-string field--name-field-telefon field--widget-string-textfield form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-telefon-wrapper" id="edit-field-telefon-wrapper">      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-telefon-0-value js-form-item-field-telefon-0-value form-group">
-                <label for="edit-field-telefon-0-value" class="control-label js-form-required form-required">Телефон</label>
-                <input class="js-text-full text-full form-text required form-control" data-drupal-selector="edit-field-telefon-0-value" type="text" id="edit-field-telefon-0-value" name="field_telefon[0][value]" value="" size="60" maxlength="255" placeholder="Телефон" required="required" aria-required="true">
-                </div>
-                </div>
-                <div class="field--type-email field--name-field-e-mail field--widget-email-default form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-e-mail-wrapper" id="edit-field-e-mail-wrapper">      <div class="form-item js-form-item form-type-email js-form-type-email form-item-field-e-mail-0-value js-form-item-field-e-mail-0-value form-group">
-                <label for="edit-field-e-mail-0-value" class="control-label js-form-required form-required">E-mail</label>
-                <input data-drupal-selector="edit-field-e-mail-0-value" class="form-email required form-control" type="email" id="edit-field-e-mail-0-value" name="field_e_mail[0][value]" value="" size="60" maxlength="254" placeholder="E-mail" required="required" aria-required="true">
-                </div>
-                </div>
-                <div class="field--type-string-long field--name-field-vash- field--widget-string-textarea form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-vash-wrapper" id="edit-field-vash-wrapper">      <div class="form-item js-form-item form-type-textarea js-form-type-textarea form-item-field-vash--0-value js-form-item-field-vash--0-value form-group">
-                <label for="edit-field-vash-0-value" class="control-label">Ваш комментарий</label>
-                <div class="form-textarea-wrapper">
-                <textarea class="js-text-full text-full form-textarea form-control resize-vertical" data-drupal-selector="edit-field-vash-0-value" id="edit-field-vash-0-value" name="field_vash_[0][value]" rows="5" cols="60" placeholder="Ваш комментарий"></textarea>
-                </div>
-                </div>
-                </div>
-                <input autocomplete="off" data-drupal-selector="form-w1jei2rpvb21kvialmor8yewexfrdcsacmi6iywf-xm" type="hidden" name="form_build_id" value="form-W1jeI2RpvB21KvIalmOr8YEweXfRdcsAcmi6iYwf-xM">
-                <input data-drupal-selector="edit-contact-message-order-support-form" type="hidden" name="form_id" value="contact_message_order_support_form">
-                <input data-drupal-selector="edit-antibot-key" type="hidden" name="antibot_key" value="Wsrzz6SXvcv1gMScrKM2Uyv0zoqwUbAQrvERx9vy4kk">
-                <div class="form-item js-form-item form-type-checkbox js-form-type-checkbox form-item-fz152-agreement js-form-item-fz152-agreement checkbox">
-                <label for="edit-fz152-agreement" class="control-label option js-form-required form-required">
-                  <input required="required" data-drupal-selector="edit-fz152-agreement" class="form-checkbox required" type="checkbox" id="edit-fz152-agreement" name="fz152_agreement" value="1" aria-required="true">
-                  <span class="custom-checkbox"></span><p><div style="display:inline">Отправляя заявку, я даю согласие на <a style="display:inline" href="/privacy-policy" target="_blank" rel="nofollow">обработку своих персональных данных</a>.</div></p></label>
-                </div>
-                <div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions">
-                  <button data-drupal-selector="edit-submit" class="button button--primary js-form-submit form-submit btn-primary btn" type="submit" id="edit-submit" name="op" value="Свяжитесь с нами">Свяжитесь с нами</button>
-                </div>
-              </form> 
-              </div>
-            </div>
-          </div>
-          <div class="field field--name-body field--type-text-with-summary1 field--label-hidden field--item"><div class="social-links">
-          <ul class="social-links-wrapper">
-          <li class="social-links-item"><a target="_blank" href="https://www.facebook.com/initlabkr/"></a></li>
-          <li class="social-links-item"><a target="_blank" href="https://vk.com/initlab"><i class="fab fa-vk"></i></a></li>
-          <li class="social-links-item"><a target="_blank" href="https://teleg.one/initlabbot" title="Свяжитесь с нами"><i class="fab fa-telegram-plane"></i></a></li>
-          <li class="social-links-item"><a target="_blank" href="https://www.youtube.com/channel/UCyFEbngMB-bK2ulNtd_W43A"><i class="fab fa-youtube"></i></a></li>
-          </ul>  
-          </div>
-          <p>Проект ООО «Инитлаб», Краснодар, Россия.<br>
-          Drupal является зарегистрированной торговой маркой Dries Buytaert.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid{
+  margin:0;
+  padding:0;
+  width: auto;
+}
+.container1{
+  padding-left: 0;
+  padding-right: 0; 
+  position: relative;
+}
+.common{
+  height: max-content;
+}
+.overlay {
+    background: url(project/img/druplicon.svg);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;/*без я индекс не получается навести на оверлай и не видно подчеркиваний и саб меню*/
+}
+p{
+  font-family: "Montserrat";
+  color: rgba(255,255,255,.8);
+  font-size: 14px;
+}
+h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.arrow{
+  display:inline-block;
+  width:0;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  color: #fff;
+}
+.header {
+    width:100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+.video {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  filter: blur(3px);
+  transform: scale(1.04);
+  display: inline-block;
+  vertical-align: baseline
+}
+.video-wrapp  {
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+nav {
+  margin: 0 auto ;
+  margin-top:10px;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.main li {
+  display: inline-block;
+  position: relative;
+  border-bottom: 3px solid;
+  
+  border-color: transparent;
+}
+.main li:hover{
+    border-color: #f04d35;
+}
+.sub li:hover{
+    padding:0;
+    background: #d13018;
+}
+.sub li:hover a{
+    border: none;
+}
+.sub li, .sub li a{  
+    display:block;
+}
+a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+#imgHeader{
+  float:left;
+  margin:10px;
+  margin-right:50px;
+}
+.sub {
+  position: absolute;
+  margin-right: auto;
+  list-style: none;
+  visibility: hidden;
+  background: #f04d35;
+}
+ul li:hover .sub {
+    visibility: visible;
+}
+.block-main-btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 20px;
+  width: 220px;
+  max-width: 100%;
+  text-align: center;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  transition: background 300ms;
+}
+.common .row{
+  width:100%;
+}
+#first{
+  margin:0;
+  width:100%;
+}
+#second{
+  margin:0;
+  width:100%;
+}
+#first a:active {
+  background: #f04d35;
+  color:#fff;
+}
+a:hover {
+    color:#fff;
+  }
+.d-flex{
+  margin:0;
+}
+.support-achievement-wrapper, .support-achievement-wrapper1 {
+  border-left: 3px solid #f14d34;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  min-height: 80px;
+  font-family: "Montserrat";
+  margin-bottom:30px;
+}
+
+.support-achievement-description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: rgba(255,255,255,.7);
+}
+.support-achievement:first-of-type .support-achievement-title {
+  font-size: 48px;
+}
+.support-achievement-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+  position: relative;
+}
+.support-achievement-title2 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.main_row-flex{
+  flex-wrap:wrap;
+  align-items: center;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 36px;
+  color: #050c33;
+  margin: 0 0 20px;
+}
+.second-block-title p {
+  margin-bottom: 55px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4f5a73;
+}
+.second-block{
+  background: white;
+}
+
+.col-xs-6{
+  width:50%;
+  position: relative;
+  min-height: 1px;   
+}
+.support-achievement-wrapper1 img{
+vertical-align: middle;
+margin-top: -27px;
+}
+.competency-body {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4f5a73;
+}
+.competency-icon {
+  position: relative;
+  margin-bottom: 30px;
+}
+.competency-icon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 115px;
+  height: 70px;
+  background: url(project/img/icon-bg.svg) no-repeat center;
+  background-size: contain;
+  left: -54px;
+  bottom: -4px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.advantages h2 {
+  margin-bottom: 55px;
+  text-align: center;
+  color: #050c33;
+  font-weight: bold;
+  font-size: 42px;
+}
+.advantage {
+  background: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px rgb(5 12 51 / 5%);
+  margin-left: -18px;
+  height: 100%;
+  position: relative;
+  padding: 25px 25px 45px;
+  min-height: 292px;
+}
+.advantage-num {
+  font-weight: bold;
+  font-size: 12px;
+  color: #828a9b;
+  margin-bottom: 20px;
+}
+.advantage-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #050c33;
+  line-height: 1.22;
+  margin-bottom: 15px;
+}
+.advantage-body {
+  position: relative;
+  z-index: 10;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e5a73;
+  line-height: 1.37;
+}
+.with-expertise {
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+.advantage-col {
+  margin-bottom: 5px;
+}
+.advantage-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.with-expertise .advantages-row {
+    margin-bottom: -212px;
+}
+
+.advantages-row {
+    padding: 0 12px;
+    position: relative;
+    z-index: 20;
+}
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+.expertise{     
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(project/img/icon-bg.svg) no-repeat;
+  background-size: cover;
+  z-index: 10;
+  font-size: 16px; 
+  line-height: 1.42857143; 
+  box-sizing: border-box; 
+  position: relative; 
+  background: linear-gradient(254.72deg, rgba(255, 255, 255, .276)-114.85%, rgba(255, 255, 255, 0) 69.04%), #040613; 
+  font-family: Montserrat; 
+  color: #fff; 
+ } 
+
+ .expertise h2{
+  margin-top: 8px;
+  margin-bottom: 40px;
+ }
+  
+ .conteiner{ 
+  font-size: 16px; 
+  line-height: 1.42857143; 
+  font-family: Montserrat; 
+  color: #fff; 
+  box-sizing: border-box; 
+  margin-right: auto; 
+  margin-left: auto; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  position: relative; 
+  z-index: 15; 
+ } 
+.col-sm-8{
+  width: auto;
+}
+  
+ .row{ 
+  font-size: 16px; 
+  line-height: 1.42857143; 
+  font-family: Montserrat; 
+  color: #fff; 
+  box-sizing: border-box; 
+  margin-left: -15px; 
+  margin-right: -15px; 
+ } 
+  
+  
+ .block-title{ 
+  box-sizing: border-box; 
+  font-family: inherit; 
+  line-height: 1.1; 
+  color: inherit; 
+  font-weight: bold; 
+  font-size: 24px; 
+  margin-bottom: 20px; 
+  margin-top: initial; 
+ } 
+  
+  
+ .row-flex{ 
+ display: flex; 
+ flex-wrap: wrap; 
+ } 
+  
+ .expertise-col{ 
+  float: left; 
+  width: 100%; 
+  margin-bottom: 30px; 
+  min-height: 1px; 
+  
+ } 
+  
+ .expertise-item-body{ 
+  border-left: 3px solid #f14d34; 
+  min-height: 88px; 
+  padding: 5px 0px 10px 15px; 
+  height: 100%; 
+  font-weight: 500; 
+  color: rgba(256, 256, 256, .7); 
+  width: 260px; 
+  max-width: 100%; 
+ } 
+ .expertise-item-body a{
+  color: #f14d34;
+  font-size: 16px;
+  padding: 0px;
+ }
+ .expertise-img{ 
+  padding : 0; 
+  left : 0; 
+  bottom : 0; 
+  z-index: 10; 
+  max-width: 735px; 
+  width: 85%; 
+ } 
+ .second-block .d-flex{
+  margin-left: 100px;
+  padding-top: 100px;
+ }
+ .expertise-img img{ 
+  width: 100%; 
+  height: auto; 
+  transform: translateY(16%); 
+ } 
+ img{ 
+  border : 0; 
+  vertical-align: middle; 
+  aspect-ratio: auto 625 / 603; 
+ } 
+ .img-responsive{ 
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+ } 
+ .flex-md-row-reverse{    
+   padding-top: 230px;
+ }
+
+
+
+
+
+ 
+
+
+ footer {
+  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(/themes/custom/bootstrap_dc/css/../images/D-footer.svg) no-repeat bottom right,#040613;
+  padding: 117px 0 54px;
+  color: #fff;
+  font-family: Montserrat;
+}
+.block-form-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: initial;
+  line-height: 1.215;
+}
+.block-form-description {
+  line-height: 1.55;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(256,256,256,.7);
+}
+.block-form-contacts{
+  margin-top: 15px;
+}
+.block-form-contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+label, .checkbox label {
+  font-weight: normal;
+  cursor: pointer;
+}
+.block-form-contacts ul li a {
+  font-size: 14px;
+}
+.block-form-contacts .block-form-phone a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.block-form-contacts .block-form-email a {
+  text-decoration: underline;
+}
+.block-form-contacts ul li>a {
+  color: #fff;
+  display: inline-block;
+  padding-left: 40px;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.1;
+}
+.block-form-phone>a:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(project/img/phone.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 3px;
+    bottom: 13px;
+    opacity: .8;
+}
+.block-form-email a:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 18px;
+  background: url(project/img/mail.svg) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: 13px;
+  opacity: .8;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #e5e5e5;
+}
+.social-links {
+  margin-bottom: 15px;
+}
+.social-links-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-links img {
+  border: 0;
+  vertical-align: middle;
+  aspect-ratio: auto 625 / 603;
+}
+.social-links-item a {
+  border: 2px solid #f14d34;
+  background: #f14d34;
+  border-radius: 5px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  transition: background 300ms;
+  
+  appearance: none;
+}
+.social-links-wrapper {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+  list-style: none;
+}
+.field--type-text-with-summary1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(256,256,256,.3);
+}
+.field--name-field-block-with-form-value form .form-type-textfield label, .field--name-field-block-with-form-value form .form-type-textarea label, .field--name-field-block-with-form-value form .form-type-email label {
+  display: none;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.field--name-body {
+  padding-top: 56px;
+}
+.field--name-field-block-with-form-value form input, .field--name-field-block-with-form-value form textarea {
+  background: transparent;
+  border: 1px solid rgba(256,256,256,.3);
+  border-radius: 5px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 26px 24px;
+  color: #fff;
+}
+.field--name-field-block-with-form-value .form-type-checkbox label a {
+  color: #f14d34;
+}
+.field--name-field-block-with-form-value .form-type-checkbox label {
+  font-size: 12px;
+  color: #fff;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-required:after {
+  background-size: 7px 7px;
+  width: 7px;
+  vertical-align: text-top;
+  margin-left: 2px;
+}
+.form-required:after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI0VFMDAwMCIgIGQ9Ik0wLDcuNTYybDEuMTE0LTMuNDM4YzIuNTY1LDAuOTA2LDQuNDMsMS42ODgsNS41OSwyLjM1QzYuMzk4LDMuNTUzLDYuMjM3LDEuNTQ0LDYuMjIsMC40NDdoMy41MTEgYy0wLjA1LDEuNTk3LTAuMjM0LDMuNi0wLjU1OCw2LjAwM2MxLjY2NC0wLjgzOCwzLjU2Ni0xLjYxMyw1LjcxNC0yLjMyNUwxNiw3LjU2MmMtMi4wNSwwLjY3OC00LjA2LDEuMTMxLTYuMDI4LDEuMzU2IGMwLjk4NCwwLjg1NiwyLjM3MiwyLjM4MSw0LjE2Niw0LjU3NWwtMi45MDYsMi4wNTljLTAuOTM1LTEuMjc0LTIuMDQxLTMuMDA5LTMuMzE2LTUuMjA2Yy0xLjE5NCwyLjI3NS0yLjI0NCw0LjAxMy0zLjE0Nyw1LjIwNiBsLTIuODU2LTIuMDU5YzEuODcyLTIuMzA3LDMuMjExLTMuODMyLDQuMDE3LTQuNTc1QzMuODQ5LDguNTE2LDEuODcyLDguMDYyLDAsNy41NjIiLz48L3N2Zz4K);
+  background-repeat: no-repeat; 
+  content: "";
+  display: inline-block;
+  line-height: 1;
+  height: 7px;
+}
+textarea.form-control {
+  height: auto;
+}
+textarea {
+  overflow: auto;
+}
+.resize-vertical {
+  min-height: 2em;
+  resize: vertical;
+}
+.radio label, .checkbox label {
+  min-height: 22px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.field--name-field-block-with-form-value .btn, .field--name-field-block-with-form-value .btn:focus, .field--name-field-block-with-form-value .btn:active {
+  background: #f14d34;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  outline: 0;
+  box-shadow: none;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 20px 14px;
+  line-height: 1;
+  transition: background 300ms;
+}
+.field--name-field-block-with-form-value .form-type-checkbox .custom-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid rgba(256,256,256,.5);
+  border-radius: 5px;
+}
+.field--name-field-block-with-form-value .form-type-checkbox input.custom-checkbox:after {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  background: url(project/img/checked-icon.svg) no-repeat center;
+  background-size: contain;
+  transition: opacity 200ms,transform 400ms;
+  transform: rotateZ(-30deg);
+  opacity: 0;
+}
+button, input, optgroup, select, textarea {
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+footer p {
+  text-align: justify;
+  margin: 0 0 11px;
+  margin-bottom: 0;
+  
+  display: inline;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: #f14d34;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 136, 0, 0.25);
+}
+ @media (max-width: 767px) { 
+  .row-flex{ 
+  margin-bottom: 10px; 
+  } 
+  nav {
+    visibility: hidden;
+    display: none;
+    }
+ } 
+ @media (min-width: 768px) {
+  .block-form-contacts{
+    margin-top: 170px;
+  } 
+  #first a:hover {
+    background: #f04d35;
+    color:#fff;
+  }
+  #second .col-xs-6{
+  width:33.333%;
+  }#first{
+    width:50%;
+  }
+  .block-form-title{
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  #second{
+    width:50%;
+  }
+  h1{
+    font-size: 52px;
+    line-height: 60px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .expertise-row{ 
+  margin-bottom: 0; 
+  } 
+  .row-flex{ 
+  margin-bottom: 75px;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .expertise .col-sm-6 {
+    float: left;
+    width:50%;
+  }
+   .expertise .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-top: 230px;
+  }
+}
+@media (max-width: 991px){
+  .expertise .col-md-6 {
+      padding-top: 230px;
+  }
+}
+@media (min-width: 1198px){
+.video{
+  width: inherit;
+}
+}
+@font-face{
+    font-family: "Montserrat";
+    src:url(ofont.ru_Montserrat.ttf) format("truetype");
+    font-style: normal;
+    font-weight:normal;
+}
