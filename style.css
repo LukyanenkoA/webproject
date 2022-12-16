@@ -919,6 +919,23 @@ span.enterprise {
     }
  } 
  @media (min-width: 768px) {
+  #first h1{
+    text-align-last:left;
+  }
+  #first p{
+    text-align-last: left;
+  }
+  #imgHeader{
+    visibility: visible;
+    display: block;
+  }
+  #first{
+    margin-left: 0;
+  }
+  .block-main-btn{
+    margin: 0;
+    margin-left: 10px;
+  }
   .fourth-block .row{
     margin-left: 0px;
   }
@@ -957,6 +974,8 @@ span.enterprise {
   }
   #second{
     width:50%;
+    
+  margin-left: 0;
   }
   h1{
     font-size: 52px;
