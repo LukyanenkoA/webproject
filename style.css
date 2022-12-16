@@ -43,6 +43,13 @@ h1 {
   font-size: 24px;
   line-height: 1.2;
 }
+#first h1{
+  text-align-last: center;
+}
+#first p{
+  margin-bottom:-10px;
+  text-align-last: center;
+}
 .arrow{
   display:inline-block;
   width:0;
@@ -120,6 +127,8 @@ a {
   float:left;
   margin:10px;
   margin-right:50px;
+  visibility: hidden;
+  display: none;
 }
 .sub {
   position: absolute;
@@ -146,16 +155,18 @@ ul li:hover .sub {
   border: 2px solid #f14d34;
   border-radius: 5px;
   transition: background 300ms;
+  margin: 75px;
 }
 .common .row{
   width:100%;
 }
 #first{
   margin:0;
+  margin-left: 10px;
   width:100%;
 }
 #second{
-  margin:0;
+  margin-left: 30px;
   width:100%;
 }
 #first a:active {
@@ -228,7 +239,6 @@ h2 {
 .second-block{
   background: white;
 }
-
 .col-xs-6{
   width: 50%;
     position: relative;
