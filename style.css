@@ -460,6 +460,12 @@ margin-top: -27px;
 
 /*начало*/
 
+.tariff:hover .tariff-footer-btn{
+  background-color: #f04d35 ;
+}
+.tariff:hover a{
+  color: white ;
+}
 .tariff{
   height: auto;
     border-radius: 5px;
@@ -493,13 +499,13 @@ margin-top: -27px;
 .tariffs-row.row-flex {
   display: flex;
 }
-.col-sm-4{
+.tariffs-row .col-sm-4{
 position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.col-xs-12 {
+.tariffs-row .col-xs-12 {
   width: 100%;
   float: left;
 }
@@ -541,9 +547,6 @@ section{
   height: 10px;
   background: url(project/img/checkmark.svg) no-repeat center;
   background-size: contain;
-}
-*:before, *:after {
-  box-sizing: border-box;
 }
 .tariff-footer-btn {
   text-decoration: none;
@@ -602,7 +605,7 @@ span.enterprise {
 }
 }
 @media (min-width: 768px){
-.col-sm-4 {
+  .tariffs-row .col-sm-4 {
     width: 33.33333333%;
     float: left;
 }
