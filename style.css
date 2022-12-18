@@ -512,7 +512,7 @@ margin-top: -27px;
    padding-top: 230px;
  }
 footer {
-  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(/themes/custom/bootstrap_dc/css/../images/D-footer.svg) no-repeat bottom right,#040613;
+  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(project/img/D-footer.svg) no-repeat bottom right,#040613;
   padding: 117px 0 54px;
   color: #fff;
   font-family: Montserrat;
