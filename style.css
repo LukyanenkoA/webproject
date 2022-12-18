@@ -11,7 +11,6 @@ header{
 }
 .container-fluid{
   margin:0;
-  padding:0;
   width: auto;
 }
 .container1{
@@ -83,33 +82,12 @@ h1 {
   overflow: hidden;
 }
 ul {
+  display: none;
   list-style: none; 
   margin: 0;
   padding: 0;
 }
-.main li {
-  display: inline-block;
-  position: relative;
-  border-bottom: 3px solid;
-  
-  border-color: transparent;
-}
-.dropdown:hover{
-  z-index: 15;
-}
-.main li:hover{
-    border-color: #f04d35;
-}
-.sub li:hover{
-    padding:0;
-    background: #d13018;
-}
-.sub li:hover a{
-    border: none;
-}
-.sub li, .sub li a{  
-    display:block;
-}
+
 a {
   color: white;
   display: block;
@@ -125,37 +103,78 @@ a {
   margin-right:50px;
 }
 
-
 nav{
+  z-index: 1;
   position: fixed;
-  bottom: 10px;
-  top: auto;
+  bottom: 0;
   left: 0;
   right: 0;
-  padding: 0;
   background: #424242;
   visibility: visible;
 }
 #imgHeader{
   visibility: visible;
   position: fixed;
-  bottom: 8px;
-  top: auto;
+  bottom: 0;
+  z-index: 10;
+  margin-bottom: 4px;
   left: 0;
   right: 0;
   padding: 0;
 }
+.navbar-toggle{
+  margin-right: 20px;;
+  float:right;
+}
+.navbar-toggle .icon-bar{
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: transparent;
+  border: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.main li {
+  padding: 5px;
+  border-bottom: 1px solid #312a2a;
+}
 
-.sub {
-  position: absolute;
-  margin-right: auto;
-  list-style: none;
-  visibility: hidden;
-  background: #f04d35;
+.sub li {
+  padding-left: 20px;
 }
-ul li:hover .sub {
-    visibility: visible;
+.dropdown div{
+  border-top: 1px solid #312a2a;
 }
+.dropdown .sub{
+  position: relative;
+  visibility: visible;
+  background: black;
+}
+nav>li {
+  position: relative;
+  display: block;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.main a:active{
+  color:#f04d35
+}
+.main{
+  border-bottom: 3px solid white;
+}
+
+#elem{
+  background:url(project/img/bars.svg);
+  width:30px;
+  height: 30px;
+}
+
+
 .block-main-btn {
   display: inline-block;
   font-weight: 500;
@@ -311,6 +330,7 @@ margin-top: -27px;
   font-size: 24px;
 }
 .advantage {
+  z-index: 1;
   background: #fff;
   border-radius: 5px;
   box-sizing: border-box;
@@ -372,7 +392,6 @@ margin-top: -27px;
 .advantages-row {
     padding: 0 12px;
     position: relative;
-    z-index: 20;
 }
 .row-flex {
     display: flex;
@@ -395,7 +414,6 @@ margin-top: -27px;
   left: 0;
   background: url(project/img/icon-bg.svg) no-repeat;
   background-size: cover;
-  z-index: 10;
   font-size: 16px; 
   line-height: 1.42857143; 
   box-sizing: border-box; 
@@ -471,7 +489,6 @@ margin-top: -27px;
   padding : 0; 
   left : 0; 
   bottom : 0; 
-  z-index: 10; 
   max-width: 735px; 
   width: 85%; 
  } 
@@ -576,6 +593,7 @@ label, .checkbox label {
   border-top: 1px solid #e5e5e5;
 }
 .social-links {
+  margin-top: 70px;
   margin-bottom: 15px;
 }
 .social-links-item {
@@ -601,8 +619,8 @@ label, .checkbox label {
   appearance: none;
 }
 .social-links-wrapper {
+  display: inline;
   margin: 0;
-  margin-top: 70px;
   padding: 0;
   list-style: none;
 }
@@ -738,14 +756,6 @@ footer p {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(255, 136, 0, 0.25);
 }
-.navbar-toggle .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-
-
 
 
 .tariffs-link {
@@ -942,14 +952,64 @@ span.enterprise {
   } 
  } 
  @media (min-width: 768px) {
-  /*begin*/
+  #elem{
+    display: none;
+  }
+  .dropdown div{
+    border-top: 1px solid transparent;
+  }
+  .main{
+    display: block;
+    border-bottom: 3px solid transparent;
+  }
+  .dropdown .sub {
+    position: absolute;
+    margin-right: auto;
+    list-style: none;
+    visibility: hidden;
+    background: #f04d35;
+  }
+  ul li:hover .sub {
+      visibility: visible;
+  }
   nav{
     margin: 0 auto ;
     margin-top:10px;
     position: relative;
     background: transparent;
   }
-  /*end*/
+  .navbar-toggle{
+  }
+  .main li {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    border-bottom: 3px solid;
+    border-color: transparent;
+  }
+  ul{
+    display: inline;
+    background-color: transparent;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown:hover{
+    z-index: 15;
+  }
+  .main li:hover{
+      border-color: #f04d35;
+  }
+  .sub li:hover{
+      padding:0;
+      background: #d13018;
+  }
+  .sub li:hover a{
+      border: none;
+  }
+  .sub li, .sub li a{  
+      display:block;
+  }
   .competency-body{
     font-size: 16px;
   }
