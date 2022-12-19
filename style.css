@@ -511,7 +511,7 @@ margin-top: -27px;
    padding-top: 230px;
  }
 footer {
-  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(project/img/D-footer.svg) no-repeat bottom right/50%,#040613;
+  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(project/img/D-flying.svg) no-repeat top center,url(project/img/D-footer.svg) no-repeat bottom right/40%,#040613;
   padding: 117px 0 54px;
   color: #fff;
   font-family: Montserrat;
@@ -884,9 +884,6 @@ section{
   right: 0;
   bottom: 0;
 }
-button {
-  appearance: none;
-}
 span.enterprise {
   padding-left: 4px;
 }
@@ -945,12 +942,88 @@ span.enterprise {
     margin-right: 0;
 }
 }
+.teamDev{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: initial;
+}
+#block-views-block-keys-block .more-link a, #block-views-block-blog-block-1 .more-link a, #block-views-block-team-new .more-link a, .team-grid .more-link a {
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #050c33;
+  padding: 24px 75px;
+  border: 1px solid #cccdd5;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+#block-views-block-team-new .view-content, .team-grid .view-content, .view-team.view-display-id-page_1 .view-content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  font-family: Montserrat;
+}
+.user-teaser-photo {
+  margin-bottom: 15px;
+  
+  border-radius: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.user-teaser-name a, .user-teaser-name {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #050c33;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.user-teaser-post {
+  width: inherit;
+  text-align: left;
+  font-size: 14px;   
+  margin-bottom: 20px; 
+  padding: 0;
+  color: #505570;
+  font-weight: 500;
+  line-height: 1.37;
+  margin-bottom: 5px;
+}
+.user-teaser-post{
+  padding: 0;
+  color: #505570;
+  font-weight: 500;
+  line-height: 1.37;
+  margin-bottom: 5px;
+}
+.teamDev .block-title{
+  margin-top: 45px;
+  text-align: center;
+}
  @media (max-width: 767px) { 
   .row-flex{ 
   margin-bottom: 10px; 
   } 
  } 
  @media (min-width: 768px) {
+  .teamDev .block-title{
+    font-size: 36px;
+  }
+  .user-teaser-in-team {
+    font-size: 16px;
+  }
+  .user-teaser-post{
+    font-size: 16px;
+  }
+  .user-teaser-photo{
+    margin-bottom:25px;
+  }
   #elem{
     display: none;
   }
