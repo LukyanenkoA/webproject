@@ -9,11 +9,17 @@ $(function(){
             data: $(this).serialize(),
             success: function(response){
                 if(response.status == "success"){
-                    alert("We received your submission, thank you!");
+                    let s = document.getElementById('edit-submit');
+                    s.innerHTML = "Ваша форма успешно отправлена"
                 }else{
-                    alert("An error occured: " + response.message);
+                    let s = document.getElementById('edit-submit');
+                    s.innerHTML = "Произошла ошибка";
                 }
-            }
+            },
+            error: function(){
+                let s = document.getElementById('edit-submit');
+                s.innerHTML = "Ошибка подключения";
+              }
         });
     });
 });
@@ -29,10 +35,3 @@ e.addEventListener( 'click' , function collapsElement() {
         lastOpen.style.display = 'block';
 });
 
-/*const openMenu = document.getElementById('elem');
-openMenu.addEventListener('click', collapsElement());
-
-openMenu.addEventListener('click', (e) => {
-  e.preventDefault();
-  openMenu.nextElementSibling.classList.toggle('main--show')
-});*/
