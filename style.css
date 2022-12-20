@@ -1283,6 +1283,7 @@ span.enterprise {
   }
   .user-teaser-post{
     font-size: 16px;
+    width: 70%;
   }
   .user-teaser-photo{
     margin-bottom:25px;
@@ -1391,6 +1392,9 @@ span.enterprise {
   #first a:hover {
     background: #f04d35;
     color:#fff;
+  }
+  .teamDev .col-xs-6{
+    width:33.33%;
   }
   #second .col-xs-6{
   width:33.333%;
